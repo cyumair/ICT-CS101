@@ -37,7 +37,7 @@ def ValidityCheck(reg):
     return isValid                                                       # it will either return True or False
 
 reg = input('Enter Registration Number ')
-Validity = ValidityCheck(reg)
+Validity = ValidityCheck(reg)                                            # value returned by function is being stored in a variable
 
 if Validity:
     print('The Registration Number Entered is Valid')
